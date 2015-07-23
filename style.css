@@ -3,15 +3,18 @@ body,button {
 	font-weight:300;
 }
 
+html,
 body {
-	
-	margin-left:0;
-	margin-right:0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 #up-line i {
 	color:#39d;
 	font-size:32px;
+	width: 25%;
 }
 
 #up-line i:hover {
@@ -37,8 +40,10 @@ body {
 }
 
 #container {
-	position:relative;
+	margin: 0 auto;
 	text-align:center;
+	position: absolute;
+	bottom: 0;
 }
 #congratulations {
 	top: 60px;
@@ -52,9 +57,9 @@ body {
 }
 #up-line i, button, td {
 	-moz-transition: all .1s ease-in;
-    -o-transition: all .1s ease-in;
-    -webkit-transition: all .1s ease-in;
-    transition: all .1s ease-in;
+		-o-transition: all .1s ease-in;
+		-webkit-transition: all .1s ease-in;
+		transition: all .1s ease-in;
 }
 
 button {
@@ -72,7 +77,7 @@ button {
 
 #generate {
 	display:inline-block;
-	width: 378px;
+	width: 50%;
 	height: 49px;
 	background: #39d;
 	color: white;
@@ -84,6 +89,7 @@ button {
 	text-align:left;
 }
 .play-record {
+	width: calc(20% - 4px);
 	font-size:22px;
 }
 #ads {
@@ -91,10 +97,10 @@ button {
 	margin: 32px auto 0 auto;
 }
 .hand {
-  width: 90px;
-  margin-top:2px;
-  margin-left:2px;
-  margin-right:0;
+	width: calc(20% - 4px);
+	margin-top:2px;
+	margin-left:2px;
+	margin-right:0;
 }
 
 #generate:hover {
@@ -178,48 +184,48 @@ button {
 }
 
 .maybe-1 {
-  top: 3px;
-  left: 5px;
+	top: 3px;
+	left: 5px;
 }
 
 .maybe-2 {
-  top: 3px;
-  left: 22px;
+	top: 3px;
+	left: 22px;
 }
 
 .maybe-3 {
-  top: 3px;
-  right: 5px;
+	top: 3px;
+	right: 5px;
 }
 
 .maybe-4 {
-  top: 18px;
-  left: 5px;
+	top: 18px;
+	left: 5px;
 }
 
 .maybe-5 {
-  top: 18px;
-  left: 22px;
+	top: 18px;
+	left: 22px;
 }
 
 .maybe-6 {
-  top: 18px;
-  right: 5px;
+	top: 18px;
+	right: 5px;
 }
 
 .maybe-7 {
-  bottom: 3px;
-  left: 5px;
+	bottom: 3px;
+	left: 5px;
 }
 
 .maybe-8 {
-  bottom: 3px;
-  left: 22px;
+	bottom: 3px;
+	left: 22px;
 }
 
 .maybe-9 {
-  bottom: 3px;
-  right: 5px;
+	bottom: 3px;
+	right: 5px;
 }
 .error .maybe,
 .solving .maybe {
