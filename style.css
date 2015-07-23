@@ -43,7 +43,9 @@ body {
 	margin: 0 auto;
 	text-align:center;
 	position: absolute;
-	bottom: 0;
+	bottom: 6px;
+	left: 11px;
+	right: 11px;
 }
 #congratulations {
 	top: 60px;
