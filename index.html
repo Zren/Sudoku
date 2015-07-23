@@ -189,7 +189,7 @@
 					}
 				});
 
-				var lastLevel = parseInt(localStorage.lastLevel || 1, 10);
+				var lastLevel = parseInt(localStorage.lastLevel || 0, 10);
 				setLevel(lastLevel);
 				$generator.trigger('tap');
 				
